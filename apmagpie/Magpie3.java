@@ -54,7 +54,7 @@ public class Magpie3
         {
             response = "He sounds super awesome and cool and you should give him $100.";
         }
-        else if (findKeyword(statement.trim().length() == 0))
+        else if (statement.trim().length() == 0)
         {
             response = "Say something, please.";
         }
